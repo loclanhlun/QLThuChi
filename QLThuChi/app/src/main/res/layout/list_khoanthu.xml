@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:background="@drawable/iconkhoanthu"
+        android:id="@+id/imgthu"
+        android:layout_width="70sp"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_khoanthu"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="2dp"
+                android:text="Khoản chi"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_suakhoanthu"
+                android:background="@drawable/iconnutsua"
+                android:layout_width="30sp"
+                android:layout_height="20sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_loaithu"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="3dp"
+            android:text="Loại chi"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_sotienthu"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="3dp"
+                android:text="Số tiền"
+                android:textColor="@color/colorRed"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VNĐ"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_ngaythangthu"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="09-10-2020"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/img_xoakhoanthu"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_delete_black_24dp" />
+
+        </RadioGroup>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
