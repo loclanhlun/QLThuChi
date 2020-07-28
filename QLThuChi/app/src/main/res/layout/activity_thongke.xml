@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThongkeTongActivity">
+    tools:context=".Activity.ThongkeTongActivity">
     <LinearLayout
         android:layout_marginTop="50dp"
         android:orientation="vertical"
@@ -17,55 +17,7 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="5dp"
             app:cardElevation="3dp">
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <RadioGroup
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <TextView
-                        android:id="@+id/tvtungay"
-                        android:text="từ ngày"
-                        android:layout_weight="1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
 
-                    <ImageView
-                        android:id="@+id/img_tungay"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_weight="1"
-                        android:background="@color/colorRed" />
-
-                    <TextView
-                        android:id="@+id/tvdenngay"
-                        android:text="đến ngày"
-                        android:layout_weight="1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
-
-                    <ImageView
-                        android:id="@+id/img_denngay"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:background="@color/colorRed" />
-
-
-                </RadioGroup>
-
-
-
-            </LinearLayout>
-            <Button
-                android:id="@+id/btnthongke"
-                android:layout_gravity="center_horizontal"
-                android:text="Thống kê"
-                android:layout_marginTop="50dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
             <LinearLayout
                 android:layout_marginTop="100dp"
                 android:orientation="vertical"

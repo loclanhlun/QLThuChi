@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ThongKeChiActivity"></activity>
-        <activity android:name=".ThongkeThuAcivity" />
-        <activity android:name=".ThongkeTongActivity" />
-        <activity android:name=".MenuActivity">
+        <activity android:name=".Activity.ThongKeChiActivity"></activity>
+        <activity android:name=".Activity.ThongkeThuAcivity" />
+        <activity android:name=".Activity.ThongkeTongActivity" />
+        <activity android:name=".Activity.MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KhoanChiActivity" />
-        <activity android:name=".KhoanThuActivity" />
+        <activity android:name=".Activity.KhoanChiActivity" />
+        <activity android:name=".Activity.KhoanThuActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
